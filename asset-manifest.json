@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/rn-tourguide/static/js/main.25f9c6d5.js",
+    "static/js/676.039099a5.js": "/rn-tourguide/static/js/676.039099a5.js",
+    "index.html": "/rn-tourguide/index.html",
+    "manifest.json": "/rn-tourguide/manifest.json",
+    "serve.json": "/rn-tourguide/serve.json",
+    "main.25f9c6d5.js.map": "/rn-tourguide/static/js/main.25f9c6d5.js.map",
+    "676.039099a5.js.map": "/rn-tourguide/static/js/676.039099a5.js.map"
+  },
+  "entrypoints": [
+    "static/js/676.039099a5.js",
+    "static/js/main.25f9c6d5.js"
+  ]
+}
