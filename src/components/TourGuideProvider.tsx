@@ -260,7 +260,7 @@ export const TourGuideProvider = ({
             isLastStep: isLastStep[tourKey],
             currentStep: currentStep[tourKey],
             stepNumber: utils.getStepNumber(steps[tourKey], currentStep[tourKey]) || 0,
-            numSteps: steps[tourKey].length,
+            numSteps: Object.values(steps[tourKey]).length,
             labels,
             tooltipComponent,
             tooltipStyle,
