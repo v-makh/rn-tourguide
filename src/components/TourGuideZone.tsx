@@ -8,6 +8,8 @@ export interface TourGuideZoneProps {
   zone: number
   tourKey?: string
   isTourGuide?: boolean
+  title?: string
+  subtitle?: string
   text?: string
   shape?: Shape
   maskOffset?: number
@@ -25,6 +27,8 @@ export const TourGuideZone = ({
   zone,
   children,
   shape,
+  title,
+  subtitle,
   text,
   maskOffset,
   borderRadius,
@@ -50,6 +54,8 @@ export const TourGuideZone = ({
         keepTooltipPosition,
         tooltipBottomOffset,
         borderRadiusObject,
+        title,
+        subtitle,
       }}
     >
       <Wrapper {...{ style }}>{children}</Wrapper>

@@ -23,6 +23,8 @@ export interface ModalProps {
   visible?: boolean
   isFirstStep: boolean
   isLastStep: boolean
+  numSteps: number | IStep
+  stepNumber: number
   animationDuration?: number
   tooltipComponent: React.ComponentType<TooltipProps>
   tooltipStyle?: StyleProp<ViewStyle>
@@ -307,6 +309,8 @@ export class Modal extends React.Component<ModalProps, State> {
           handlePrev={this.handlePrev}
           handleStop={this.handleStop}
           labels={this.props.labels}
+          numSteps={this.props.numSteps}
+          stepNumber={this.props.stepNumber}
         />
       </Animated.View>
     )

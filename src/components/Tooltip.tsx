@@ -9,6 +9,8 @@ export interface TooltipProps {
   isFirstStep?: boolean
   isLastStep?: boolean
   currentStep: IStep
+  numSteps: number | IStep
+  stepNumber: number
   labels?: Labels
   handleNext?: () => void
   handlePrev?: () => void

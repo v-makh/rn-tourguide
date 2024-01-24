@@ -6,6 +6,8 @@ declare var __TEST__: boolean
 
 interface Props {
   name: string
+  title?: string
+  subtitle?: string
   text: string
   order: number
   tourKey: string

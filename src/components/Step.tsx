@@ -6,6 +6,8 @@ import { TourGuideContext } from './TourGuideContext'
 interface Props {
   name: string
   order: number
+  title?: string
+  subtitle?: string
   text: string
   tourKey: string
   shape?: Shape
